@@ -4,11 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Navbar } from "./components/common/Navbar";
 import { TechStack } from "./components/techstack/TechStack";
+import { Home } from "./components/home/Home";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Home />
       <TechStack />
     </>
   );
