@@ -3,13 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Navbar } from "./components/common/Navbar";
-import { Home } from "./routes/Home";
+import { TechStack } from "./components/techstack/TechStack";
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Home /> */}
+      <TechStack />
     </>
   );
 }
