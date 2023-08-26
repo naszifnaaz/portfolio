@@ -9,7 +9,7 @@ export const Navbar = () => {
         <img src={logo} alt="logo" className="w-32" />
       </div>
 
-      <nav className="hidden lg:flex">
+      <nav className="hidden lg:flex text-sm">
         <p className="mr-3">Home</p>
         <p className="mr-3">About</p>
         <p className="mr-3">TechStack</p>
