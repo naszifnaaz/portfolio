@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <div className=" flex flex-col lg:flex-row justify-evenly items-center h-[70vh] font-poppins">
       <div>
-        <div className="text-2xl font-bold text-gray-800 text-center md:text-4xl lg:text-left">
+        <div className="text-2xl font-bold text-gray-800 text-center md:text-5xl lg:text-left">
           <p>Hi, 👋</p>
           <p>My name is</p>
           <p className="bg-gradient-to-r from-cyan-500 to-pink-600 bg-clip-text text-transparent">

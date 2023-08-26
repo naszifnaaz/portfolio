@@ -5,6 +5,7 @@ import "./App.css";
 import { Navbar } from "./components/common/Navbar";
 import { TechStack } from "./components/techstack/TechStack";
 import { Home } from "./components/home/Home";
+import { Projects } from "./components/projects/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <TechStack />
+      <Projects />
     </>
   );
 }
