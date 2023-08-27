@@ -6,9 +6,12 @@ export const Footer = () => {
     <div className="px-3">
       <div className="flex flex-col md:flex-row justify-evenly items-center text-xs text-gray-800">
         <img src={logo} className="w-32" />
-        <a href="mailto:naszifnaaz@gmail.com" target="_blank">
-          naszifnaaz@gmail.com
-        </a>
+        <p>
+          <a href="https://mailto:naszifnaaz@gmail.com" target="_blank">
+            naszifnaaz@gmail.com
+          </a>
+        </p>
+
         <p>+91 8075436081</p>
         <div className="flex">
           <a href="https://github.com/naszifnaaz" target="_blank">

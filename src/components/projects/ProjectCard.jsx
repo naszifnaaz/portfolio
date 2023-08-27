@@ -72,7 +72,7 @@ export const ProjectCard = ({ project }) => {
         <div className="flex justify-center items-center">
           <AiFillGithub size={"2rem"} className="mr-2" />
           <p className="underline font-bold">
-            <a href={project.preview_link} target="_blank">
+            <a href={project.repo_link} target="_blank">
               View Code
             </a>
           </p>
