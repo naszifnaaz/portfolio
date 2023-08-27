@@ -7,12 +7,14 @@ import { TechStack } from "./components/techstack/TechStack";
 import { Home } from "./components/home/Home";
 import { Projects } from "./components/projects/Projects";
 import { Footer } from "./components/common/Footer";
+import { About } from "./components/about/About";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
+      <About />
       <TechStack />
       <Projects />
       <Footer />

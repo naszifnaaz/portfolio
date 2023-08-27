@@ -13,7 +13,7 @@ export const Home = () => {
           <p className="font-light md:font-semibold">I build things for web!</p>
         </div>
       </div>
-      <img src={dp} alt="DP" className="w-3/4 md:w-1/3" />
+      <img src={dp} alt="DP" className="w-3/4 md:w-1/2 lg:w-1/3" />
     </div>
   );
 };
