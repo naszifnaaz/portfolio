@@ -17,10 +17,17 @@ export const Navbar = () => {
         <p className="mr-3">Contact</p>
       </nav>
       <div className="flex">
-        <AiFillGithub size={"2rem"} className="mr-3" />
-        <AiFillLinkedin size={"2rem"} className="mr-3" />
-        <AiOutlineTwitter size={"2rem"} className="mr-3" />
-        <GiHamburgerMenu size={"2rem"} className="lg:hidden mr-3" />
+        <a href="https://github.com/naszifnaaz" target="_blank">
+          <AiFillGithub size={"2rem"} className="mr-3" />
+        </a>
+        <a href="https://www.linkedin.com/in/nasifnaaz/" target="_blank">
+          <AiFillLinkedin size={"2rem"} className="mr-3" />
+        </a>
+        <a href="https://twitter.com/naszifnaaz" target="_blank">
+          <AiOutlineTwitter size={"2rem"} className="mr-3" />
+        </a>
+
+        {/* <GiHamburgerMenu size={"2rem"} className="lg:hidden mr-3" /> */}
       </div>
     </div>
   );
