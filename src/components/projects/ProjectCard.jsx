@@ -19,7 +19,9 @@ export const ProjectCard = ({ project }) => {
       <p className=" text-xl text-center my-3 h-12 underline font-semibold">
         {project.title}
       </p>
-      <p className="text-sm px-3">{project.desc}</p>
+      <p className="text-sm px-3 leading-relaxed text-gray-700 tracking-wide">
+        {project.desc}
+      </p>
       <div className="flex my-4 px-3">
         {project.techstack.includes("react") ? (
           <FaReact size={"2rem"} className="mr-3" />

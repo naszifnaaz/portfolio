@@ -2,7 +2,12 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import logo from "../../assets/logo-white.png";
+import { useRef } from "react";
 export const Navbar = () => {
+  const ref = useRef(null);
+  function handleScroll() {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  }
   return (
     <div className="flex justify-around items-center my-5">
       <div>
@@ -10,11 +15,21 @@ export const Navbar = () => {
       </div>
 
       <nav className="hidden lg:flex text-sm">
-        <p className="mr-3">Home</p>
-        <p className="mr-3">About</p>
-        <p className="mr-3">TechStack</p>
-        <p className="mr-3">Projects</p>
-        <p className="mr-3">Contact</p>
+        <button onClick={handleScroll}>
+          <p className="mr-3">Home</p>
+        </button>
+        <button onClick={handleScroll}>
+          <p className="mr-3">About</p>
+        </button>
+        <button>
+          <p className="mr-3">TechStack</p>
+        </button>
+        <button>
+          <p className="mr-3">Projects</p>
+        </button>
+        <button>
+          <p className="mr-3">Contact</p>
+        </button>
       </nav>
       <div className="flex">
         <a href="https://github.com/naszifnaaz" target="_blank">
