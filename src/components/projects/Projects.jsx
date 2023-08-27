@@ -12,9 +12,11 @@ export const Projects = () => {
       banner: bg1,
       title: "Sound Lab",
       desc: "Proficiently developed a fictitious e-commerce website using React, Tailwind CSS, Express, and MongoDB, including an admin dashboard and simulated Stripe payment integration. Demonstrates expertise in front-end and back-end technologies, enhancing my web development skills for real-world projects.",
-      techstack: ["react", "redux", "express", "mongo"],
+      techstack: ["react", "redux", "express", "mongodb"],
       preview_link: "https://github.com/naszifnaaz/sound-lab",
       repo_link: "https://github.com/naszifnaaz",
+      executable: false,
+      papers: false,
     },
     {
       banner: bg2,
@@ -23,6 +25,8 @@ export const Projects = () => {
       techstack: ["nextjs", "tailwind", "OpenAI"],
       preview_link: "https://muhammednasif.netlify.app/",
       repo_link: "https://github.com/naszifnaaz/sound-lab",
+      executable: false,
+      papers: false,
     },
     {
       banner: bg3,
@@ -31,6 +35,8 @@ export const Projects = () => {
       techstack: ["html", "css", "js"],
       preview_link: "https://github.com/naszifnaaz/sound-lab",
       repo_link: "https://github.com/naszifnaaz/sound-lab",
+      executable: false,
+      papers: false,
     },
     {
       banner: bg4,
@@ -39,6 +45,8 @@ export const Projects = () => {
       techstack: ["python", "ml"],
       preview_link: "www.google.com",
       repo_link: "www.github.com/naszifnaaz",
+      executable: true,
+      papers: true,
     },
     {
       banner: bg5,
@@ -47,15 +55,19 @@ export const Projects = () => {
       techstack: ["python"],
       preview_link: "www.google.com",
       repo_link: "www.github.com/naszifnaaz",
+      executable: true,
+      papers: true,
     },
 
     {
       banner: bg6,
       title: "Sudoku Solver",
-      desc: "Experience the timeless challenge of Sudoku with my Python creation! Developed with pygame, this Sudoku game employs the efficient backtracking algorithm to offer hours of brain-teasing fun. Sharpen your logic and problem-solving skills with this classic number-placement puzzle",
+      desc: "Experience the timeless challenge of Sudoku with my Python creation! Developed with pygame, this Sudoku game employs the efficient backtracking algorithm to offer hours of brain-teasing fun. Sharpen your logic and problem-solving skills with this classic number-placement puzzle made with Python Pygame",
       techstack: ["python"],
       preview_link: "www.google.com",
       repo_link: "www.github.com/naszifnaaz",
+      executable: true,
+      papers: false,
     },
   ];
   return (
@@ -64,7 +76,7 @@ export const Projects = () => {
         <p className="font-bold text-4xl text-purple-950 my-2">My Projects</p>
         <p className="text-xl text-gray-600">Things I've built recently</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 content-center mx-20 mt-8 mb-20 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 content-center mx-7 mt-8 mb-20 ">
         {myProjects.map((project, index) => {
           return <ProjectCard project={project} key={index} />;
         })}

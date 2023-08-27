@@ -16,7 +16,9 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="shadow-xl font-poppins rounded-lg">
       <img src={project.banner} className="w-full" />
-      <p className=" text-xl text-center my-3 h-12">{project.title}</p>
+      <p className=" text-xl text-center my-3 h-12 underline font-semibold">
+        {project.title}
+      </p>
       <p className="text-sm px-3">{project.desc}</p>
       <div className="flex my-4 px-3">
         {project.techstack.includes("react") ? (
@@ -54,16 +56,19 @@ export const ProjectCard = ({ project }) => {
         ) : null}
       </div>
       <div className="flex justify-evenly items-center my-3">
-        <div className="flex justify-center items-center">
-          <BiLinkAlt size={"2rem"} className="mr-2" />
-          <a href={`#`} target="_blank">
-            <p className="underline font-bold">
-              <a href={project.preview_link} target="_blank">
-                Live Preview
-              </a>
-            </p>
-          </a>
-        </div>
+        {project.executable ? null : (
+          <div className="flex justify-center items-center">
+            <BiLinkAlt size={"2rem"} className="mr-2" />
+            <a href={`#`} target="_blank">
+              <p className="underline font-bold">
+                <a href={project.preview_link} target="_blank">
+                  Live Preview
+                </a>
+              </p>
+            </a>
+          </div>
+        )}
+
         <div className="flex justify-center items-center">
           <AiFillGithub size={"2rem"} className="mr-2" />
           <p className="underline font-bold">

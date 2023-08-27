@@ -1,9 +1,11 @@
 export const TechStack = () => {
   return (
-    <div className="h-full m-auto my-10">
+    <div className="h-full m-auto my-10 font-poppins">
       <div className="text-center">
-        <p className="font-bold text-4xl text-purple-950 my-2">My Tech Stack</p>
-        <p className="text-xl text-gray-600">
+        <p className="text-3xl font-bold md:text-4xl text-purple-950 my-2">
+          My Tech Stack
+        </p>
+        <p className="mx-8 text-xl text-gray-600">
           Technologies I've been working with recently
         </p>
       </div>
