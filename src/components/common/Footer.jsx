@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 export const Footer = () => {
   return (
     <div className="px-3">
-      <div className="flex flex-col md:flex-row justify-evenly items-center text-xs">
+      <div className="flex flex-col md:flex-row justify-evenly items-center text-xs text-gray-800">
         <img src={logo} className="w-32" />
         <p>naszifnaaz@gmail.com</p>
         <p>+91 8075436081</p>
