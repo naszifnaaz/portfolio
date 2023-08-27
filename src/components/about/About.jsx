@@ -13,7 +13,7 @@ const experience = [
   },
   {
     title: "Web Development Intern",
-    company: "Tisser Technolgies",
+    company: "Tisser Technologies",
     location: "Kerala",
     role: "Intern",
     date: "Mar 2021 - Apr 2021",
@@ -23,7 +23,7 @@ const experience = [
 const edu = [
   {
     degree: "Computer Science Engineering",
-    college: "Acharya Institute of Technolgy",
+    college: "Acharya Institute of Technology",
     location: "Banglore",
     date: "June 2016 - Aug 2021",
   },

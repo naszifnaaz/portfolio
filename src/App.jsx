@@ -11,14 +11,14 @@ import { About } from "./components/about/About";
 
 function App() {
   return (
-    <>
+    <div className="bg-gradient-to-r from-teal-100 to-rose-100 m-0 p-0">
       <Navbar />
       <Home />
       <About />
       <TechStack />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 }
 

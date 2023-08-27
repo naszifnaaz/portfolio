@@ -9,7 +9,7 @@ export const Navbar = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <div className="flex justify-around items-center my-5">
+    <div className="flex justify-around items-center mb-5 pt-5">
       <div>
         <img src={logo} alt="logo" className="w-32" />
       </div>
