@@ -36,7 +36,7 @@ export const About = () => {
         <h1 className="font-bold text-3xl text-purple-900 my-3">About Me</h1>
         <div className="">
           <div className="flex flex-col md:flex-row justify-around w-full">
-            <p className="text-gray-600 text-xs lg:text-lg leading-loose tracking-wider">
+            <p className="text-gray-600 text-xs lg:text-lg leading-loose tracking-widest">
               My name is{" "}
               <span className="font-normal md:font-bold bg-gradient-to-r from-cyan-500 to-pink-600 bg-clip-text text-transparent">
                 Muhammed Nasif
