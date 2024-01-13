@@ -25,7 +25,7 @@ export const Footer = () => {
           </a>
         </div>
       </div>
-      <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+      <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       <div className="flex flex-col md:flex-row justify-around items-center text-gray-700">
         <div className="flex text-xs items-center">
           <p className="mr-3">Home</p>

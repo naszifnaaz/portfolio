@@ -13,8 +13,8 @@ export const Projects = () => {
       title: "Sound Lab",
       desc: "Proficiently developed a fictitious e-commerce website using React, Tailwind CSS, Express, and MongoDB, including an admin dashboard and simulated Stripe payment integration. Demonstrates expertise in front-end and back-end technologies, enhancing my web development skills for real-world projects.",
       techstack: ["react", "redux", "express", "mongodb"],
-      preview_link: "https://sound-lab.vercel.app/",
-      repo_link: "https://github.com/naszifnaaz/sound-lab",
+      preview_link: "https://soundlab.vercel.app/",
+      repo_link: "https://github.com/naszifnaaz/soundlab",
       executable: false,
       papers: false,
     },
@@ -71,14 +71,14 @@ export const Projects = () => {
     },
   ];
   return (
-    <div className=" flex-col justify-center items-center font-poppins">
+    <div className=" flex-col justify-center items-center font-poppins lg:mx-44">
       <div className="text-center">
         <p className="font-bold text-4xl text-purple-950 my-2">My Projects</p>
         <p className="text-sm lg:text-xl text-gray-600">
           Things I've built recently
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 content-center mx-7 md:mx-12 mt-8 mb-20 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 content-center mx-7 md:mx-12 mt-8 mb-20 ">
         {myProjects.map((project, index) => {
           return <ProjectCard project={project} key={index} />;
         })}

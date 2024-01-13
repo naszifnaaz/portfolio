@@ -61,13 +61,13 @@ export const ProjectCard = ({ project }) => {
         {project.executable ? null : (
           <div className="flex justify-center items-center">
             <BiLinkAlt size={"2rem"} className="mr-2" />
-            <a href={`#`} target="_blank">
+            <div>
               <p className="underline font-bold">
                 <a href={project.preview_link} target="_blank">
                   Live Preview
                 </a>
               </p>
-            </a>
+            </div>
           </div>
         )}
 

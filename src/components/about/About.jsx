@@ -36,24 +36,28 @@ export const About = () => {
         <h1 className="font-bold text-3xl text-purple-900 my-3">About Me</h1>
         <div className="">
           <div className="flex flex-col md:flex-row justify-around w-full">
-            <p className="text-gray-600 text-xs lg:text-lg leading-loose tracking-widest">
-              My name is{" "}
-              <span className="font-normal md:font-bold bg-gradient-to-r from-cyan-500 to-pink-600 bg-clip-text text-transparent">
-                Muhammed Nasif
-              </span>
-              . I'm a passionate Full Stack Web Developer and Python programmer
-              using technologies to build amazing products and focusing on
-              solving problems for different niches and different industries
-              using the power of technology. I'm a Computer Science student
-              having a Bachelors degree in Information Science and Programming.
-            </p>
+            <div>
+              <p className="text-gray-600 text-xs lg:text-lg leading-loose tracking-wide mr-10">
+                My name is{" "}
+                <span className="font-normal md:font-bold bg-gradient-to-r from-cyan-500 to-pink-600 bg-clip-text text-transparent">
+                  Muhammed Nasif
+                </span>
+                🚀 Welcome to my digital space! I'm a dedicated Full Stack Web
+                Developer specializing in the MERN Stack. With a keen passion
+                for leveraging technology, I craft compelling solutions that
+                address diverse challenges across various industries. As a
+                Computer Science enthusiast, I hold a Bachelor's degree in
+                Information Science and Programming. Let's collaborate and
+                transform ideas into exceptional digital experiences! 💻✨
+              </p>
+              <p className="mt-3 text-gray-800 text-xs lg:text-md leading-loose">
+                I will love to hear from you. Whether it's a project, job
+                opportunity, or just a chat. Feel free to{" "}
+                <span className="font-semibold underline">contact me</span>.
+              </p>
+            </div>
             <img src={avatar} alt="avatar" className="w-full m-auto md:w-1/2" />
           </div>
-          <p className="mt-3 text-gray-800 text-xs lg:text-md leading-loose">
-            I will love to hear from you. Whether it's a project, job
-            opportunity, or just a chat. Feel free to{" "}
-            <span className="font-semibold underline">contact me</span>.
-          </p>
         </div>
         <div>
           <h1 className="font-bold text-3xl text-purple-900 mt-10">

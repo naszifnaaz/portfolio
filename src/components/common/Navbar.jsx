@@ -14,7 +14,7 @@ export const Navbar = () => {
         <img src={logo} alt="logo" className="w-32" />
       </div>
 
-      <nav className="hidden lg:flex text-sm">
+      {/* <nav className="hidden lg:flex text-sm">
         <button onClick={handleScroll}>
           <p className="mr-3">Home</p>
         </button>
@@ -30,7 +30,8 @@ export const Navbar = () => {
         <button>
           <p className="mr-3">Contact</p>
         </button>
-      </nav>
+      </nav> */}
+
       <div className="flex">
         <a href="https://github.com/naszifnaaz" target="_blank">
           <AiFillGithub size={"2rem"} className="mr-3" />
